@@ -12,12 +12,12 @@
 		"type:tests": "tsc -p ./tests/tsconfig.json"
 	},
 	"dependencies": {
-		"cookie": "^0.6.0",
+		"cookie": "^1.0.1",
 		"isomorphic-random-example": "workspace:^"
 	},
 	"devDependencies": {
 		"@cloudflare/workers-tsconfig": "workspace:^",
-		"undici": "^5.28.4",
+		"undici": "^6.20.0",
 		"wrangler": "workspace:*"
 	},
 	"volta": {
